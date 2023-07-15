@@ -4,7 +4,7 @@ body{
     height:100vh;
     margin:0;
 }
-.home-section{
+.section-one{
     background-color:#1f2937;
     margin:0;
     padding:20px;
@@ -48,7 +48,7 @@ a, .hero-sec-text, #signuphome{
 .hero-main-text{
     color:#f9faf8;
     font-size: 50px;
-    font-weight: 9500;
+    font-weight: 900;
     margin:0;
 }
 #signuphome{
@@ -60,4 +60,33 @@ a, .hero-sec-text, #signuphome{
 }
 .hero-sec-text{
     letter-spacing: 0.6px;
+    
+}
+.info-header-text{
+    font-size:36px;
+    color:#1f2937;
+    font-weight:900;
+    text-align:center;
+}
+.offers{
+    padding:20px 0;
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#image{
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    width:200px;
+    height:200px;
+}
+.img{
+    color:#1f2937;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+.products{
+    padding: 20px 0 50px 0;
 }
